@@ -1,0 +1,2 @@
+alias conn="netstat -plant | grep '80\|443' | grep -v LISTEN | wc -l"
+netstat -plant | grep '80\|443' | grep -v LISTEN | wc -lnetstat -plant | grep '80\|443' | grep -v LISTEN | wc -l
